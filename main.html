@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Minamdang Website</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="img/HeadLogo.png" type="image/icon type">
+    <script src="https://kit.fontawesome.com/52d65be2ac.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Navigation Bar Starts -->
+    <header class="navigation">
+        <div class="logo">
+            <img src="img/CafeMinamdangLogo.png" alt="Cafe Minamdang" width="150px">
+        </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="product.html">ALL PRODUCTS</a></li>
+                <li><a href="#deliverrry">DELIVERIES</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#aboutttt">STUDENTS</a></li>
+                <li><a href="footer">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Navigation Bar Ends -->
+
+    <!-- Home Section Starts -->
+    <div class="home-section">
+        <div id="welcome">
+            <img src="img/Welcome.png" alt="Welcome to Cafe Minamdang">
+            <a href="#">LEARN MORE</a>
+        </div>
+    </div>
+    <!-- Home Section Ends -->
+
+    <!-- Featured Product Section Starts -->
+    <div class="featured">
+        <div class="featuredCoffee">
+            <img src="img/feature1.png" alt="Best Seller Coffee">
+            <div class="overlay">
+                <div class="over-txt">
+                    <h4>BEST TASTING COFFEE IN THE CITY</h4>
+                    <a href="product.html">VIEW MENU</a>
+                </div>
+            </div>
+        </div>
+        <div class="featuredCoffee">
+            <img src="img/feature2.png" alt="Best Seller Frappe">
+            <div class="overlay">
+                <div class="over-txt">
+                    <h4>THE BEST FRAPPE YOU'LL EVER HAVE</h4>
+                    <a href="product.html">VIEW MENU</a>
+                </div>
+            </div>
+        </div>
+        <div class="featuredCoffee">
+            <img src="img/feature3.png" alt="Best Seller Coffee">
+            <div class="overlay">
+                <div class="over-txt">
+                    <h4>SPREADING SWEETNESS IN THE CITY</h4>
+                    <a href="product.html">VIEW MENU</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured Product Section Ends -->
+
+    <!-- Third Section Starts -->
+    <div id="deliverrry">
+        <div class="deliverySection">
+            <div class="head">
+                <h1>NO TIME TO HEAD OUT?</h1>
+            </div>
+            <!-- Delivery Form Starts -->
+            <div class="containerBody">
+                <div class="container">
+                    <div class="title">Delivery Form</div>
+                    <form action="#">
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">Full Name</span>
+                                <input type="text" placeholder="Enter your name" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Contact Number</span>
+                                <input type="text" placeholder="Enter your mobile number" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Complete Address</span>
+                                <input type="text" placeholder="(City, Barangay, Street Name, House No." required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Email Address</span>
+                                <input type="text" placeholder="Enter your email" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Create a password</span>
+                                <input type="password" placeholder="Enter your password" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Confirm password</span>
+                                <input type="password" placeholder="Your password should match" required>
+                            </div>
+                        </div>
+                        <div class="payment-method">
+                            <input type="radio" name="payment" id="dot-1">
+                            <input type="radio" name="payment" id="dot-2">
+                            <input type="radio" name="payment" id="dot-3">
+                            <span class="payment-title">Payment Option</span>
+                            <div class="category">
+                                <label for="dot-1">
+                                    <span class="dot one"></span>
+                                    <span class="payment">Cash on Delivery</span>
+                                </label>
+                                <label for="dot-2">
+                                    <span class="dot two"></span>
+                                    <span class="payment">E-Wallet (GCash)</span>
+                                </label>
+                                <label for="dot-3">
+                                    <span class="dot three"></span>
+                                    <span class="payment">Online Banking</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <input type="submit" value="Create Account">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Delivery Form Ends -->
+        </div>
+    </div>
+    <!-- Third Section Ends -->
+
+    <!-- Gallery Section Starts -->
+    <div id="gallery">
+
+        <body>
+            <section>
+                <div class="lightBox">
+                    <div class="lightBox_content">
+                        <i class="fas fa-times close"></i>
+                        <div class="logo_icons">
+                            <a href="#">
+                                <img src="img/gallery/logo.png" alt="">
+                                <div class="text_content">
+                                    <span class="name">Cafe Minamdang</span>
+                                    <span class="followers">50k followers</span>
+                                </div>
+                            </a>
+                            <div class="icons">
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-arrow-down"></i>
+                            </div>
+                        </div>
+                        <div class="showImg">
+                            <div class="image">
+                                <img src="img/gallery/g1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="image-gallery">
+                    <header>SHARE YOUR HAPPY MOMENTS WITH CAFE MINAMDANG</header>
+                    <div class="image-container">
+                        <div class="image-box">
+                            <img src="img/gallery/g1.jpg" alt="">
+                            <div class="logo_icons">
+                                <a href="#">
+                                    <img src="img/gallery/logo.png" alt="">
+                                    <div class="text_content">
+                                        <span class="name">Cafe Minamdang</span>
+                                        <span class="followers">50k followers</span>
+                                    </div>
+                                </a>
+                                <div class="icons">
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-arrow-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <img src="img/gallery/g2.jpg" alt="">
+                            <div class="logo_icons">
+                                <a href="#">
+                                    <img src="img/gallery/logo.png" alt="">
+                                    <div class="text_content">
+                                        <span class="name">Cafe Minamdang</span>
+                                        <span class="followers">50k followers</span>
+                                    </div>
+                                </a>
+                                <div class="icons">
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-arrow-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <img src="img/gallery/g3.jpg" alt="">
+                            <div class="logo_icons">
+                                <a href="#">
+                                    <img src="img/gallery/logo.png" alt="">
+                                    <div class="text_content">
+                                        <span class="name">Cafe Minamdang</span>
+                                        <span class="followers">50k followers</span>
+                                    </div>
+                                </a>
+                                <div class="icons">
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-arrow-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <img src="img/gallery/g4.jpg" alt="">
+                            <div class="logo_icons">
+                                <a href="#">
+                                    <img src="img/gallery/logo.png" alt="">
+                                    <div class="text_content">
+                                        <span class="name">Cafe Minamdang</span>
+                                        <span class="followers">50k followers</span>
+                                    </div>
+                                </a>
+                                <div class="icons">
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-arrow-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <img src="img/gallery/g5.jpg" alt="">
+                            <div class="logo_icons">
+                                <a href="#">
+                                    <img src="img/gallery/logo.png" alt="">
+                                    <div class="text_content">
+                                        <span class="name">Cafe Minamdang</span>
+                                        <span class="followers">50k followers</span>
+                                    </div>
+                                </a>
+                                <div class="icons">
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-arrow-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <img src="img/gallery/g6.jpg" alt="">
+                            <div class="logo_icons">
+                                <a href="#">
+                                    <img src="img/gallery/logo.png" alt="">
+                                    <div class="text_content">
+                                        <span class="name">Cafe Minamdang</span>
+                                        <span class="followers">50k followers</span>
+                                    </div>
+                                </a>
+                                <div class="icons">
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-arrow-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <img src="img/gallery/g7.jpg" alt="">
+                            <div class="logo_icons">
+                                <a href="#">
+                                    <img src="img/gallery/logo.png" alt="">
+                                    <div class="text_content">
+                                        <span class="name">Cafe Minamdang</span>
+                                        <span class="followers">50k followers</span>
+                                    </div>
+                                </a>
+                                <div class="icons">
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-arrow-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <img src="img/gallery/g8.jpg" alt="">
+                            <div class="logo_icons">
+                                <a href="#">
+                                    <img src="img/gallery/logo.png" alt="">
+                                    <div class="text_content">
+                                        <span class="name">Cafe Minamdang</span>
+                                        <span class="followers">50k followers</span>
+                                    </div>
+                                </a>
+                                <div class="icons">
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-arrow-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <img src="img/gallery/g9.jpg" alt="">
+                            <div class="logo_icons">
+                                <a href="#">
+                                    <img src="img/gallery/logo.png" alt="">
+                                    <div class="text_content">
+                                        <span class="name">Cafe Minamdang</span>
+                                        <span class="followers">50k followers</span>
+                                    </div>
+                                </a>
+                                <div class="icons">
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-arrow-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <img src="img/gallery/g10.jpg" alt="">
+                            <div class="logo_icons">
+                                <a href="#">
+                                    <img src="img/gallery/logo.png" alt="">
+                                    <div class="text_content">
+                                        <span class="name">Cafe Minamdang</span>
+                                        <span class="followers">50k followers</span>
+                                    </div>
+                                </a>
+                                <div class="icons">
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-arrow-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <img src="img/gallery/g11.jpg" alt="">
+                            <div class="logo_icons">
+                                <a href="#">
+                                    <img src="img/gallery/logo.png" alt="">
+                                    <div class="text_content">
+                                        <span class="name">Cafe Minamdang</span>
+                                        <span class="followers">50k followers</span>
+                                    </div>
+                                </a>
+                                <div class="icons">
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-arrow-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <img src="img/gallery/g12.jpg" alt="">
+                            <div class="logo_icons">
+                                <a href="#">
+                                    <img src="img/gallery/logo.png" alt="">
+                                    <div class="text_content">
+                                        <span class="name">Cafe Minamdang</span>
+                                        <span class="followers">50k followers</span>
+                                    </div>
+                                </a>
+                                <div class="icons">
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-arrow-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <img src="img/gallery/g13.jpg" alt="">
+                            <div class="logo_icons">
+                                <a href="#">
+                                    <img src="img/gallery/logo.png" alt="">
+                                    <div class="text_content">
+                                        <span class="name">Cafe Minamdang</span>
+                                        <span class="followers">50k followers</span>
+                                    </div>
+                                </a>
+                                <div class="icons">
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-arrow-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <img src="img/gallery/g14.jpg" alt="">
+                            <div class="logo_icons">
+                                <a href="#">
+                                    <img src="img/gallery/logo.png" alt="">
+                                    <div class="text_content">
+                                        <span class="name">Cafe Minamdang</span>
+                                        <span class="followers">50k followers</span>
+                                    </div>
+                                </a>
+                                <div class="icons">
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-arrow-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <img src="img/gallery/g15.jpg" alt="">
+                            <div class="logo_icons">
+                                <a href="#">
+                                    <img src="img/gallery/logo.png" alt="">
+                                    <div class="text_content">
+                                        <span class="name">Cafe Minamdang</span>
+                                        <span class="followers">50k followers</span>
+                                    </div>
+                                </a>
+                                <div class="icons">
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-arrow-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </body>
+    </div>
+    <!-- Gallery Section Ends -->
+
+    <!-- Fourth Section Starts -->
+    <div id="aboutttt">
+        <div class="containerAbout">
+            <div class="headerAbout">
+                <h1>STUDENTS</h1>
+            </div>
+            <div class="sub-container">
+                <div class="teams">
+                    <img src="img/richard.png" alt="Richard Allen Gabor">
+                    <div class="name">Richard Allen Gabor</div>
+                    <div class="desig">BSIT 2-1</div>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="teams">
+                    <img src="img/aladin.png" alt="Aladin Cacho">
+                    <div class="name">Aladin Cacho</div>
+                    <div class="desig">BSIT 2-1</div>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="teams">
+                    <img src="img/lance.png" alt="Lance Trixian Faustino">
+                    <div class="name">Lance Trixian Faustino</div>
+                    <div class="desig">BSIT 2-1</div>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fourth Section Ends -->
+
+    <!-- Contact Section Starts -->
+
+    <!-- Contact Section Starts -->
+
+    <!-- Footer Starts -->
+    <div class="main-footer">
+        <footer>
+            <div class="footer-container">
+                <div class="content-footer">
+                    <div class="profil">
+                        <div class="logo-area">
+                            <img src="img/logoBlack.png" alt="Cafe Minamdang Logo" width="150px">
+                        </div>
+                        <div class="desc-area">
+                            <p>It has always been, and will always be, about quality. We're passionate about ethically
+                                sourcing the finest coffee beans, roasting them with great care, and improving the lives
+                                of people who grow them. We care deeply about all of this; our work is never done.</p>
+                        </div>
+                        <div class="social-media">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="partnership-area">
+                        <ul class="partner-header">
+                            <li class="partner-name">Partnership</li>
+                            <li><a href="#">Food Panda</a></li>
+                            <li><a href="#">Grab Food</a></li>
+                            <li><a href="#">LalaFood</a></li>
+                            <li><a href="#">Uber Eats</a></li>
+                        </ul>
+                        <ul class="partner-header">
+                            <li class="partner-name">Rewards</li>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">View Transaction</a></li>
+                            <li><a href="#">Reload</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                        <ul class="partner-header">
+                            <li class="partner-name">Customer Care</li>
+                            <li><a href="#">Feedback</a></li>
+                            <li><a href="#">Branches</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer-bottom">
+                    <div class="copyright">
+                        <i class="fa-solid fa-copyright"></i>
+                        <span>2022 Cafe Minamdang</span>
+                    </div>
+                    <div class="tou">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Term of Use</a>
+                        <a href="#">Terms and Condition</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Footer Ends -->
+
+
+    <!-- Javascript -->
+    <script src="main.js"></script>
+</body>
+
+</html>
